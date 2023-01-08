@@ -9,21 +9,20 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form>
+		<label for="name"></label>
 		<input type="text" id="name" placeholder="Name"><br>
-		
+
+		<label for="phone number"></label>
 		<input type="text" id="phone" placeholder="Phone Number"><br>
 		
+		<label for="address"></label>
 		<input type="text" id="address" placeholder="Address"><br>
 
-		<input type="checkbox" id="checkbox">
-		<label for="question">Have you ever lived with a Dog before?</label><br>
+		<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?"><br>
 
-		<select name="dogs" id="multiselect">
-			<option value="german shepherd">German </option>
-			<option value="lebrador">Lebrador</option>
-			<option value="american eskimo">American Eskimo</option>
-		</select><br>
-		
+		<label for="dogs"></label>
+		<select id="multiselect"><option value="german shepherd">German </option><option value="lebrador">Lebrador</option><option value="american eskimo">American Eskimo</option></select><br>
+
 		<label for="submit"></label>
 		<input type="submit" id="submit" value="Submit">
 	</form>
